@@ -2,7 +2,7 @@
   "name": "typed-foundry",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/OmegaRogue/typed-foundry",
   "type": "module",
   "repository": {
