@@ -4,7 +4,7 @@
 	"private": false,
 	"type": "module",
 	"devDependencies": {
-		"foundry-types": "@typed-foundry/foundry",
+		"@typed-foundry/foundry": "^5.13.1",
 		"typescript": "^5.3.3"
 	},
 	"types": "./index.d.ts"
