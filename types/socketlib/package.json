@@ -1,0 +1,11 @@
+{
+	"name": "@typed-foundry/socketlib",
+	"version": "1.0.10",
+	"private": false,
+	"type": "module",
+	"types": "index.d.ts",
+	"devDependencies": {
+		"foundry-types": "@typed-foundry/foundry",
+		"typescript": "^5.3.3"
+	}
+}

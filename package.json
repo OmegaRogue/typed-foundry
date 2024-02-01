@@ -1,0 +1,36 @@
+{
+  "name": "typed-foundry",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/OmegaRogue/typed-foundry",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmegaRogue/typed-foundry.git"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3",
+    "prettier": "^3.1.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "handlebars": "^4.7.8",
+    "jquery": "^3.7.1",
+    "jsdom": "^24.0.0",
+    "esno": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jquery": "^3.5.29",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.10.7",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1"
+  },
+  "workspaces": ["types/*"]
+}

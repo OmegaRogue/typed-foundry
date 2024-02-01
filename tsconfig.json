@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		//Do I need this?
+		"allowImportingTsExtensions": true,
+		"allowUnusedLabels": false,
+		"baseUrl": ".",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"module": "NodeNext",
+		"moduleResolution": "nodenext",
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitAny": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "dist",
+		"removeComments": false,
+		"resolveJsonModule": true,
+		"rootDir": ".",
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": false,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"target": "es2022",
+		"typeRoots": [
+			"node_modules/@types",
+			"types/*"
+		],
+		"types": ["jquery", "node", "tooltipster"],
+		"useDefineForClassFields": true,
+		"noErrorTruncation": true
+		//		"allowJs": true
+	}
+}
