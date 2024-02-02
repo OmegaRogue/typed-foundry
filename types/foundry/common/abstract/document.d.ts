@@ -247,8 +247,7 @@ export default abstract class Document<
 	static updateDocuments<TDocument extends Document>(
 		this: ConstructorOf<TDocument>,
 		updates?: Record<string, unknown>[],
-		context?: DocumentModificationContext<TDocument["parent"],
-	): Promise<TDocument[]>;
+		context?: DocumentModificationContext<TDocument["parent"]>): Promise<TDocument[]>;
 
 	/**
 	 * Delete one or multiple existing Documents using an array of provided ids.

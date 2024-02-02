@@ -1,4 +1,4 @@
-import "foundry-types";
+import "@typed-foundry/foundry";
 
 declare global {
 	namespace globalThis {

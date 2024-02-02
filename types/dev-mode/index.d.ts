@@ -1,4 +1,4 @@
-import "foundry-types";
+import "@typed-foundry/foundry";
 
 export {};
 
@@ -6,7 +6,6 @@ declare global {
 	export interface DevModeModule extends Module {
 		api: DevModeApi;
 	}
-
 	enum LogLevel {
 		NONE = 0,
 		INFO = 1,

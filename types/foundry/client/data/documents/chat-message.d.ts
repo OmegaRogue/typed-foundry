@@ -95,7 +95,7 @@ declare global {
 		protected static _getSpeakerFromActor({
 			scene,
 			actor,
-			alia,
+			alias,
 		}: {
 			scene?: Scene;
 			actor: Actor;
@@ -169,7 +169,7 @@ declare global {
 		protected override _onCreate(
 			data: this["_source"],
 			options: DocumentModificationContext<null>,
-			userId: strin,
+			userId: string,
 		): void;
 
 		protected override _onUpdate(

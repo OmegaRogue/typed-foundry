@@ -1,15 +1,23 @@
 {
-	"compilerOptions": {
-		"target": "ES2022",
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
-		"lib": ["esnext", "dom"],
-		"strict": true,
-		"noImplicitOverride": true,
-		"noEmit": true,
-		"esModuleInterop": true,
-		"allowImportingTsExtensions": true,
-		"typeRoots": ["../../../node_modules/@types", "../foundry"]
-	},
-	"files": ["index.d.ts"]
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "strict": true,
+    "noImplicitOverride": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@typed-foundry"
+    ]
+  },
+  "files": [
+    "index.d.ts"
+  ]
 }
