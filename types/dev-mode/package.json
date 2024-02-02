@@ -1,13 +1,13 @@
 {
 	"name": "@typed-foundry/dev-mode",
-	"version": "1.15.4",
+	"version": "5.15.5",
 	"private": false,
 	"type": "module",
 	"devDependencies": {
 		"@typed-foundry/foundry": "^5.13.1",
-		"typescript": "^5.3.3",
+		"@types/jquery": "^3.5.29",
 		"jquery": "^3.7.1",
-		"@types/jquery": "^3.5.29"
+		"typescript": "^5.3.3"
 	},
 	"types": "./index.d.ts"
 }
