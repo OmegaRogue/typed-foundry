@@ -1,6 +1,6 @@
 {
 	"name": "@typed-foundry/lib-wrapper",
-	"version": "1.12.14",
+	"version": "1.12.15",
 	"private": false,
 	"type": "module",
 	"types": "./index.d.ts",
