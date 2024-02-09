@@ -1,6 +1,6 @@
 {
 	"name": "@typed-foundry/foundry",
-	"version": "5.13.2",
+	"version": "5.13.4",
 	"description": "Type definitions for the Foundry VTT client, used by the PF2e system",
 	"private": false,
 	"type": "module",

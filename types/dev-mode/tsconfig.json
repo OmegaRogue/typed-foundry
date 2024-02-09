@@ -15,8 +15,8 @@
     "typeRoots": [
       "node_modules/@types",
       "node_modules/@typed-foundry"
-    ]
-    //		"skipLibCheck": true
+    ],
+    "skipLibCheck": true
   },
   "files": [
     "index.d.ts"
